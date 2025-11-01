@@ -1,0 +1,83 @@
+.header {
+display:grid;
+grid-template-columns: 10% 50% 40%;
+width:99%;
+height:150px;
+margin-top: 15px;
+border-radius: 40px;
+background-color: rgb(255, 255, 255);
+/*box-shadow: 3px 3px 7px rgba(138, 138, 138, 0.5) inset;*/
+}
+
+.headerlogo {
+    position: relative;
+    left: 30%;
+    top:12%;
+}
+
+.menu {
+display: flex;
+position: relative;
+gap: 35px;
+flex-wrap: wrap; 
+width:600px;
+top:35%;
+left:52%;
+ }
+
+ .menuon {
+    color: rgb(19, 19, 19);
+    cursor: pointer;
+    color: rgb(50, 50, 50);
+    font-family: Rubik;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    }
+
+
+.modal {
+
+width:300px;
+height: 450px;
+border-radius:20px;
+box-shadow: 0px 0px 10px rgba(93, 93, 93, 0.6); 
+margin-left:40%;
+margin-top: -10%;
+animation: modalFadeIn 0.3s;
+}
+
+.close {
+position: absolute;
+top: 15px;
+right: 15px;
+font-size: 24px;
+font-weight: bold;
+cursor: pointer;
+color: #aaa; }
+
+
+.close:hover {
+color: #000;
+} 
+
+.headerbtn {
+    display: grid;
+    position: relative;
+    align-items: center;
+    left:50%;
+    top:20%;
+    
+}
+
+
+
+
+.square {
+  border-radius: 20px;
+  width: 200px !important;
+  height: 200px !important;
+  background-color: rgb(81, 104, 97) !important;
+  display: grid;
+}

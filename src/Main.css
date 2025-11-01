@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.main-viewport {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+    .main-banner-first {
+    display: grid;
+    grid-template-rows: 35% 30% 35% ;
+    background-color: #F8FFF5;
+    height: 800px;
+    width: 900px;
+    margin-left:20%;
+    top:20%;
+    border-top-left-radius: 50% ;
+    border-top-right-radius: 50% ;
+    border-bottom-right-radius: 50% ;
+    justify-content: center;
+    z-index: 100;
+  }
+
+    .main-viewportbtn {
+        display: grid;
+        position: relative;
+        grid-template-columns: 50% 50%;
+        top:20%;
+        gap:40px;
+     } 
+
+
+    .square {
+        display: block;
+        position: relative;
+        background-color: #ffffff;
+        width:201%;
+        height: 190px;
+        top:-110%;
+        left:0px;
+        z-index: 105;
+     } 
+
+
+     .text-h1 {
+    position: relative;
+    top:55%;
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    color:#333333;
+
+     }
+
+     .text {
+    position: relative;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    top:10%;
+     }
+
+     .textcolor {
+        color:#366126;
+     }
+
+
+    .mainbtn {
+    background-color: transparent;
+    color:#05581C;
+    border-color:#05581C;
+     }
+
+     .main-banner-second {
+    background: #f0f0f0 url('img/food.png') center/cover no-repeat;
+    width: 850px;
+    height: 800px;
+    top:20%;
+    border-top-left-radius: 50% ;
+    border-color: #F8FFF5;
+    border-width: 20px;
+    border-style: solid;
+    z-index: 1;
+}

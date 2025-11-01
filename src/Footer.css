@@ -1,0 +1,123 @@
+footer {
+background-color: rgb(255, 255, 255); 
+}
+
+
+
+    .footer-before {
+    display: grid;
+    position: relative;
+    left:0px; }
+        
+        
+        
+    .footer-banner {
+    width: 100%;
+    height: 98%;    
+    }
+
+        .footerh1 {
+        position: relative;
+        font-weight: 700;
+        font-size: 60px;
+        color: aliceblue;
+        }
+
+        .footer-before-btn {
+        position: relative;
+        top:0;
+        background-color: #1AC94B;
+        left:0px;
+        }
+
+        .footer-before-section {
+        display: grid;
+        position: relative;
+        grid-template-rows: 50% 50%;
+        width: 600px;
+        height: 300px;
+        gap:50px;
+        padding: 30px;
+        left:55%;
+        top:-120%;
+        line-height: 65px; 
+        justify-content: center;
+        }
+
+
+    .footer-last {
+    display:grid;
+    position: relative;
+    grid-template-columns: 50% 50%;
+    background-color: #F8FFF5;
+    margin-left:200px;
+    padding:40px;
+    width: 75%;
+    margin-top:-12%;
+    border-radius: 20px;
+    height: 550px; }
+
+
+    .footer-last-first {
+    display: grid;
+    position: relative;
+    left: 15%;
+    top:10%;
+    grid-template-rows: 20% 20% 20% 20%;
+    gap:20px; }
+
+
+        .footer-lf-one {
+        font-weight: 500;
+        font-size: 30px;
+        gap:10px;
+    }
+
+        .flf-one-text {
+        position: relative;
+        top:40%;
+        }
+
+        .flf-one-contacts {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap:15px;
+        justify-content: center;
+        align-items: center;
+        }
+
+        .iconesootrer {
+        width:30px;
+        margin-right:15px;
+        }
+
+        .footertextmin {
+        position: relative;
+         top:-10px;   
+        }
+
+
+        .carfooter {
+        width: 130%;
+        }
+
+
+.thelast {
+width: 100%;
+height: 240px;
+background-color: #05581C;
+
+}
+
+.thelastline {
+display: grid;
+grid-template-columns: 30% 40% 30%;
+position: relative;
+background-color: #F8FFF5;
+border-color: #05581C; 
+border: 10px;
+height: 80px;
+padding: 50px;
+margin-top: 100px;
+}
+
